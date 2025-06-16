@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.ladder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.step {
+    width: 100%;
+    background: #333;
+    padding: 15px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.step:hover {
+    background: #555;
+}
+
+.coin-display {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .step {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
+
+
+.logo a{
+    color:#58a6ff;font-size:1.5rem; text-decoration: none; gap: 30px;
+}

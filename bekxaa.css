@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #0b0c10;
+  color: #c5c6c7;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 20px;
+}
+.roulette {
+  margin: 20px auto;
+  width: 300px;
+  overflow: hidden;
+}
+#skins {
+  display: flex;
+  transition: transform 1s ease;
+}
+#skins img {
+  width: 300px;
+  height: auto;
+}
+button {
+  padding: 10px 20px;
+  background-color: #66fcf1;
+  border: none;
+  color: #0b0c10;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.logo a{
+    color:#58a6ff;font-size:1.5rem; text-decoration: none; gap: 30px;
+}

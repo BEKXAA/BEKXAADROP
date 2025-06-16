@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crash Game</title>
+    <link rel="stylesheet" href="crash.css">
+    <link rel="shortcut icon" href="./ak47-silhouette-icon-kalashnikov-assault-rifle-pictogram-russian-machine-gun-icon-weapon-symbol-steel-war-ammunition-ak-47-single-logo-design-isolated-illustration-vector.jpg" type="image/x-icon" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo"><a href="./index.html">BEKXAA DROP</a></h1>
+        <h1>Crash Game</h1>
+        <div id="balance">Balance: <span id="coin">1000</span> coins</div>
+        <input type="number" id="betAmount" placeholder="Enter bet amount">
+        <button onclick="startGame()">Start Game</button>
+        <button onclick="cashOut()" id="cashOutBtn" disabled>Cash Out</button>
+        <div id="multiplier">1.00x</div>
+        <canvas id="crashChart" width="300" height="100"></canvas>
+        <div id="result"></div>
+    </div>
+    <script src="crash.js"></script>
+</body>
+</html>

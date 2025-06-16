@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BEKXAA DROP</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon"
+    href="./ak47-silhouette-icon-kalashnikov-assault-rifle-pictogram-russian-machine-gun-icon-weapon-symbol-steel-war-ammunition-ak-47-single-logo-design-isolated-illustration-vector.jpg"
+    type="image/x-icon" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <h1 class="logo"><a href="./index.html">BEKXAA DROP</a></h1>
+    <ul class="nav-links">
+      <li><a href="#" data-target="rouletteSection">Roulette</a></li>
+      <li><a href="#" data-target="chatSection">Chat</a></li>
+      <li><a href="#" data-target="profileSection">Profile</a></li>
+      <li id="loginNav"><a href="#" data-target="loginSection">Login</a></li>
+      <li id="logoutNav" class="hidden"><button id="logoutBtn">Logout</button></li>
+    </ul>
+    
+  </nav>
+<br>
+<div class="crash">
+  <button><a href="./crash.html">Crash</a></button>
+  <button><a href="./sapyor.html">Sapyor</a></button>
+  <button><a href="./apg.html">Kuchaytirish</a></button>
+  <br><br>
+  <button><a href="./narvon.html">Narvon</a></button>
+  <button><a href="./bekxaa.html">BEKXAA KEYSI</a></button>
+</div>
+
+
+  <!-- Login -->
+  <section id="loginSection" class="page">
+    <h2>Login / Register</h2>
+    <form id="loginForm">
+      <input type="text" id="usernameInput" placeholder="Enter nickname" required>
+      <button type="submit">Enter</button>
+    </form>
+  </section>
+
+  <!-- Roulette -->
+  <section id="rouletteSection" class="page hidden">
+    <h2>Roulette</h2>
+    <div id="wheelWrapper">
+      <div id="wheel"></div>
+      <button id="spinBtn">Spin!</button>
+    </div>
+    <div id="result"></div>
+  </section>
+
+  <!-- Chat -->
+  <section id="chatSection" class="page hidden">
+    <h2>Chat</h2>
+    <div id="chatLog"></div>
+    <form id="chatForm">
+      <input type="text" id="chatInput" placeholder="Type a message" autocomplete="off" required>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Profile -->
+  <section id="profileSection" class="page hidden">
+    <h2>Profile</h2>
+    <p><strong>Nickname:</strong> <span id="profileName"></span></p>
+    <h3>Won Skins</h3>
+    <div id="wonSkins"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
