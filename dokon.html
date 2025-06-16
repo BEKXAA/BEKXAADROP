@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Do‘kon</title>
+  <link rel="stylesheet" href="dokon.css" />
+  <link rel="shortcut icon"
+    href="./ak47-silhouette-icon-kalashnikov-assault-rifle-pictogram-russian-machine-gun-icon-weapon-symbol-steel-war-ammunition-ak-47-single-logo-design-isolated-illustration-vector.jpg"
+    type="image/x-icon" />
+</head>
+<body>
+  <header>
+       <h1 class="logo"><a href="./index.html">BEKXAA DROP</a></h1>
+    <div id="cart-icon" onclick="toggleCart()">🛒 <span id="cart-count">0</span></div>
+  </header>
+
+  <main class="product-grid">
+    <div class="product-card">
+      <img src="https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhh2MzYfi9B6dC3nY60m_7zO6-fzjwHvJEn2OqWotmi3gXt_BVtYD-ncIWcIA85YV-ErwK-ley-18e06oOJlyU3nvbOMA/512fx384f" alt="Nike" />
+      <h2>AK 47 SKIN</h2>
+      <p class="price">120$</p>
+      <button onclick="addToCart('AK 47 SKIN', 120)">Sotib olish</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://profilerr.net/static/content/thumbs/1600x900/2/44/o5k774---c16x9x50px50p--54f7e43a2f4e6af14e4ca92c9bae2442.jpg" alt="Soat" />
+      <h2>KNIFE</h2>
+      <p class="price">250$</p>
+      <button onclick="addToCart('KNIFE', 250)">Sotib olish</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://i.ytimg.com/vi/hmJ4FvNmlNY/maxresdefault.jpg" alt="Airpods" />
+      <h2>XAMMASI</h2>
+      <p class="price">99$</p>
+      <button onclick="addToCart('XAMMASI', 99)">Sotib olish</button>
+    </div>
+    <div class="product-card">
+      <img src="https://i.ytimg.com/vi/hmJ4FvNmlNY/maxresdefault.jpg" alt="Airpods" />
+      <h2>XAMMASI</h2>
+      <p class="price">99$</p>
+      <button onclick="addToCart('XAMMASI', 99)">Sotib olish</button>
+    </div>
+    <div class="product-card">
+      <img src="https://i.ytimg.com/vi/uPKutfaC8jM/maxresdefault.jpg" alt="Airpods" />
+      <h2>XAMMASI</h2>
+      <p class="price">99$</p>
+      <button onclick="addToCart('XAMMASI', 99)">Sotib olish</button>
+    </div>
+    <div class="product-card">
+      <img src="https://i.ytimg.com/vi/pbFR_nSCL54/maxresdefault.jpg" alt="Airpods" />
+      <h2>XAMMASI</h2>
+      <p class="price">99$</p>
+      <button onclick="addToCart('XAMMASI', 99)">Sotib olish</button>
+    </div>
+  </main>
+
+  <!-- Savat Modal -->
+  <div id="cart-modal" class="hidden">
+    <h3>Savatdagi mahsulotlar:</h3>
+    <ul id="cart-items"></ul>
+    <p><strong>Jami:</strong> $<span id="cart-total">0</span></p>
+  </div>
+
+  <script src="dokon.js"></script>
+</body>
+</html>
